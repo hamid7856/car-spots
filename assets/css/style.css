@@ -1,0 +1,111 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: Roboto Mono;
+}
+.wrapper{
+	width: 1152px;
+	margin: auto;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	background: brown;
+}
+.wrapper h1{
+	text-transform: uppercase;
+	color: white;
+	line-height: 70px;
+	font-size: 50px;
+	padding: 0px 20px;
+}
+.nav{
+	background-color: orange;
+	height: 40px;
+}
+.wrapper ul li{
+	list-style: none;
+	display: inline;
+}
+.wrapper ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 7px 20px;
+	line-height: 40px;
+	font-size: 20px;
+	color: black;
+}
+.wrapper ul li a:hover{
+	background-color: brown;
+}
+.slider{
+	height: 500px;
+	background-color: black;
+	width: 100%;
+}
+.slider img{
+	height: 500px;
+	width: 100%;
+}
+.product-heading h2{text-transform: uppercase;
+	border-bottom: 5px solid brown;
+	color: black;}
+.products{
+	
+	width: 100%;}
+.prds{
+	height: 270px;
+	width: 270px;
+	border: 1 px solid yellow;
+	margin: 10px 5px;
+	display: inline-block;
+	border-radius: 5px ;
+}
+.prds img{
+	height: 240px;
+	width: 270px;
+	border-radius: 30px;
+	border: 1px solid maroon;
+}
+.prds h3{
+	height: 30px;
+	width: 100%;
+	color: maroon;
+	opacity: 80%;
+	line-height: 30px;
+	text-align: center;
+}
+.about{
+	height: 400px;
+	width: 100%;
+	position: relative;
+}
+.about .wrapper .about-head h2{
+    height: 400px;	
+	width: 570px;
+	position: absolute;
+	z-index: 1;
+	color: maroon;
+	line-height: 400px;
+	font-size: 50px;
+	text-align: center;
+}
+.about .wrapper .about-p p{
+	height: 400px;
+	width: 570px;
+	position: absolute;
+	z-index: 1;
+	color: black;
+	right: 130px ;
+	line-height: 65px;
+	font size: 20px;
+}
+.about .wrapper img{
+	height: 400px;
+	width: 1152px;
+	position: absolute;
+	z-index: 0;
+	opacity: 50%;
+	}
